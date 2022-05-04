@@ -15,7 +15,7 @@
   
 ### 客户端
 * **务必替换所有的appname.herokuapp.com为heroku分配的项目域名**  
-* **务必替换所有的8f91b6a0-e8ee-11ea-adc1-0242ac120002为部署时设置的AUUID**  
+* **务必替换所有的d0b5b2ba-6aff-4d3f-9c5d-b3a27106581d为部署时设置的AUUID**  
   
 <details>
 <summary>v2ray</summary>
@@ -25,11 +25,11 @@
 * 代理协议：vless 或 vmess
 * 地址：appname.herokuapp.com
 * 端口：443
-* 默认UUID：8f91b6a0-e8ee-11ea-adc1-0242ac120002
+* 默认UUID：d0b5b2ba-6aff-4d3f-9c5d-b3a27106581d
 * 加密：none
 * 传输协议：ws
 * 伪装类型：none
-* 路径：/8f91b6a0-e8ee-11ea-adc1-0242ac120002-vless // 默认vless使用/$uuid-vless，vmess使用/$uuid-vmess
+* 路径：/d0b5b2ba-6aff-4d3f-9c5d-b3a27106581d-vless // 默认vless使用/$uuid-vless，vmess使用/$uuid-vmess
 * 底层传输安全：tls
 ```
 </details>
@@ -46,11 +46,11 @@
     "remote_addr": "appname.herokuapp.com",
     "remote_port": 443,
     "password": [
-        "8f91b6a0-e8ee-11ea-adc1-0242ac120002"
+        "d0b5b2ba-6aff-4d3f-9c5d-b3a27106581d"
     ],
     "websocket": {
         "enabled": true,
-        "path": "/8f91b6a0-e8ee-11ea-adc1-0242ac120002-trojan",
+        "path": "/d0b5b2ba-6aff-4d3f-9c5d-b3a27106581d-trojan",
         "host": "appname.herokuapp.com"
     }
 }
@@ -67,7 +67,7 @@
 * 密码：password
 * 加密：chacha20-ietf-poly1305
 * 插件程序：v2ray-plugin_windows_amd64.exe  //需将插件https://github.com/shadowsocks/v2ray-plugin/releases下载解压后放至shadowsocks同目录
-* 插件选项: tls;host=appname.herokuapp.com;path=/8f91b6a0-e8ee-11ea-adc1-0242ac120002-ss
+* 插件选项: tls;host=appname.herokuapp.com;path=/d0b5b2ba-6aff-4d3f-9c5d-b3a27106581d-ss
 ```
 </details>
   
