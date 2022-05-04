@@ -1,5 +1,5 @@
 {
-    "name": "hr",
+    "name": "wehe2w",
     "description": "v2ray websocket proxy on heroku",
     "keywords": ["v2ray vmess vless trojan shadowsocks socks tor"],
     "env": {
@@ -9,19 +9,19 @@
         },
         "AUUID": {
             "description": "UUID充当各个配置的路径和账号密码，建议修改和妥善保存,可生成UUID的网站: https://www.uuidgenerator.net",
-            "value": "8f91b6a0-e8ee-11ea-adc1-0242ac120002"
+            "value": "d0b5b2ba-6aff-4d3f-9c5d-b3a27106581d"
         },
         "CADDYIndexPage": {
             "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/hulunber/hr/blob/master/etc/CADDYIndexPage.md",
-            "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
+            "value": "https://github.com/StartBootstrap/startbootstrap-new-age/archive/master.zip"
         },
         "CONFIGCADDY": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/hulunber/hr/master/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/mploivcv/wehe2w/master/etc/Caddyfile"
         },
         "CONFIGV2RAY": {
             "description": "自定义网络地址读取配置运行V2RAY，不熟悉V2RAY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/hulunber/hr/master/etc/v2ray.json"
+            "value": "https://raw.githubusercontent.com/mploivcv/wehe2w/master/etc/v2ray.json"
         },
         "ParameterSSENCYPT": {
             "description": "SS加密方式，查看支持协议: https://www.v2fly.org/config/protocols/shadowsocks.html",
@@ -29,10 +29,10 @@
         },
         "StoreFiles": {
             "description": "自定义网络地址读取存储文件列表",
-            "value": "https://raw.githubusercontent.com/hulunber/hr/master/etc/StoreFiles"
+            "value": "https://raw.githubusercontent.com/mploivcv/wehe2w/master/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/hulunber/hr",
-    "repository": "https://github.com/hulunber/hr",
+    "website": "https://github.com/mploivcv/wehe2w",
+    "repository": "https://github.com/mploivcv/wehe2w",
     "stack": "container"
 }
